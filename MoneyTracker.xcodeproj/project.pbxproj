@@ -1,0 +1,758 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA06B4AA27B6581400965F29 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4A927B6581400965F29 /* User.swift */; };
+		CA06B4AD27B65D5200965F29 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4AC27B65D5200965F29 /* Purchase.swift */; };
+		CA06B4AF27B65F0400965F29 /* ManagerPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4AE27B65F0400965F29 /* ManagerPurchases.swift */; };
+		CA06B4B127B662F100965F29 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4B027B662F100965F29 /* Settings.swift */; };
+		CA06B4B327B6630E00965F29 /* ColorSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4B227B6630E00965F29 /* ColorSettings.swift */; };
+		CA06B4B527B6CEA500965F29 /* ControllerUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4B427B6CEA500965F29 /* ControllerUser.swift */; };
+		CA06B4B727B6CF3500965F29 /* ControllerManagerPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4B627B6CF3500965F29 /* ControllerManagerPurchases.swift */; };
+		CA06B4B927B6CF9B00965F29 /* ControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4B827B6CF9B00965F29 /* ControllerSettings.swift */; };
+		CA06B4BB27B6CFE100965F29 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4BA27B6CFE100965F29 /* Database.swift */; };
+		CA06B4BE27C170BF00965F29 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4BD27C170BF00965F29 /* SignUp.swift */; };
+		CA06B4C327C2800700965F29 /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4C227C2800700965F29 /* testView.swift */; };
+		CA06B4C527CA33A100965F29 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4C427CA33A100965F29 /* Home.swift */; };
+		CA06B4C727CA377500965F29 /* ShowUserComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4C627CA377500965F29 /* ShowUserComponent.swift */; };
+		CA06B4C927CA3A6B00965F29 /* ShowCirclePurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4C827CA3A6B00965F29 /* ShowCirclePurchase.swift */; };
+		CA06B4CC27CA523F00965F29 /* AddNewPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4CB27CA523F00965F29 /* AddNewPurchase.swift */; };
+		CA06B4CE27CA6D4F00965F29 /* ShowMonthPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4CD27CA6D4F00965F29 /* ShowMonthPurchases.swift */; };
+		CA06B4D027CA6E6B00965F29 /* ShowPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4CF27CA6E6B00965F29 /* ShowPurchase.swift */; };
+		CA06B4D227CE4E2A00965F29 /* ListPurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4D127CE4E2A00965F29 /* ListPurchases.swift */; };
+		CA06B4D427CE5A0D00965F29 /* EditUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4D327CE5A0D00965F29 /* EditUser.swift */; };
+		CA06B4D627D6097500965F29 /* ShowDescriptionPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4D527D6097500965F29 /* ShowDescriptionPurchase.swift */; };
+		CA06B4D827D6233800965F29 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4D727D6233800965F29 /* Statistics.swift */; };
+		CA112D8327905C8200792B42 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D8227905C8200792B42 /* MoneyTrackerApp.swift */; };
+		CA112D8527905C8300792B42 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D8427905C8300792B42 /* RootView.swift */; };
+		CA112D8727905C8400792B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA112D8627905C8400792B42 /* Assets.xcassets */; };
+		CA112D8A27905C8400792B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA112D8927905C8400792B42 /* Preview Assets.xcassets */; };
+		CA112D9427905C8400792B42 /* MoneyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D9327905C8400792B42 /* MoneyTrackerTests.swift */; };
+		CA112D9E27905C8400792B42 /* MoneyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D9D27905C8400792B42 /* MoneyTrackerUITests.swift */; };
+		CA112DA027905C8400792B42 /* MoneyTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D9F27905C8400792B42 /* MoneyTrackerUITestsLaunchTests.swift */; };
+		CA275A2D27F1FEBD00101076 /* MostExpensivePurchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA275A2C27F1FEBD00101076 /* MostExpensivePurchases.swift */; };
+		CA275A2F27F2003B00101076 /* ShowStatPurchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA275A2E27F2003B00101076 /* ShowStatPurchase.swift */; };
+		CA47C6B027F3B76B0058548B /* ShowMonthAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47C6AF27F3B76B0058548B /* ShowMonthAnimation.swift */; };
+		CA47C6B227F3B7770058548B /* ShowYearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47C6B127F3B7770058548B /* ShowYearAnimation.swift */; };
+		CA506BCE28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA506BCD28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift */; };
+		CAD3BE9727F1F427009E2465 /* NavigationBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3BE9627F1F427009E2465 /* NavigationBack.swift */; };
+		CAEAE49327F30BDA008497AC /* MostExpensivePurchaseMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAE49227F30BDA008497AC /* MostExpensivePurchaseMonth.swift */; };
+		CAEAE49527F30D7D008497AC /* MostExpensiveCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAE49427F30D7D008497AC /* MostExpensiveCategory.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA112D9027905C8400792B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA112D7727905C8200792B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA112D7E27905C8200792B42;
+			remoteInfo = MoneyTracker;
+		};
+		CA112D9A27905C8400792B42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA112D7727905C8200792B42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA112D7E27905C8200792B42;
+			remoteInfo = MoneyTracker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA06B4A927B6581400965F29 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CA06B4AC27B65D5200965F29 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
+		CA06B4AE27B65F0400965F29 /* ManagerPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerPurchases.swift; sourceTree = "<group>"; };
+		CA06B4B027B662F100965F29 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		CA06B4B227B6630E00965F29 /* ColorSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSettings.swift; sourceTree = "<group>"; };
+		CA06B4B427B6CEA500965F29 /* ControllerUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerUser.swift; sourceTree = "<group>"; };
+		CA06B4B627B6CF3500965F29 /* ControllerManagerPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerManagerPurchases.swift; sourceTree = "<group>"; };
+		CA06B4B827B6CF9B00965F29 /* ControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControllerSettings.swift; sourceTree = "<group>"; };
+		CA06B4BA27B6CFE100965F29 /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		CA06B4BD27C170BF00965F29 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		CA06B4C227C2800700965F29 /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		CA06B4C427CA33A100965F29 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CA06B4C627CA377500965F29 /* ShowUserComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUserComponent.swift; sourceTree = "<group>"; };
+		CA06B4C827CA3A6B00965F29 /* ShowCirclePurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowCirclePurchase.swift; sourceTree = "<group>"; };
+		CA06B4CB27CA523F00965F29 /* AddNewPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewPurchase.swift; sourceTree = "<group>"; };
+		CA06B4CD27CA6D4F00965F29 /* ShowMonthPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMonthPurchases.swift; sourceTree = "<group>"; };
+		CA06B4CF27CA6E6B00965F29 /* ShowPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowPurchase.swift; sourceTree = "<group>"; };
+		CA06B4D127CE4E2A00965F29 /* ListPurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPurchases.swift; sourceTree = "<group>"; };
+		CA06B4D327CE5A0D00965F29 /* EditUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUser.swift; sourceTree = "<group>"; };
+		CA06B4D527D6097500965F29 /* ShowDescriptionPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDescriptionPurchase.swift; sourceTree = "<group>"; };
+		CA06B4D727D6233800965F29 /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		CA112D7F27905C8200792B42 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA112D8227905C8200792B42 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
+		CA112D8427905C8300792B42 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		CA112D8627905C8400792B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA112D8927905C8400792B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA112D8F27905C8400792B42 /* MoneyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA112D9327905C8400792B42 /* MoneyTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerTests.swift; sourceTree = "<group>"; };
+		CA112D9927905C8400792B42 /* MoneyTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA112D9D27905C8400792B42 /* MoneyTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerUITests.swift; sourceTree = "<group>"; };
+		CA112D9F27905C8400792B42 /* MoneyTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CA112DAC27905D7C00792B42 /* TODO.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = TODO.md; sourceTree = "<group>"; };
+		CA275A2C27F1FEBD00101076 /* MostExpensivePurchases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensivePurchases.swift; sourceTree = "<group>"; };
+		CA275A2E27F2003B00101076 /* ShowStatPurchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowStatPurchase.swift; sourceTree = "<group>"; };
+		CA47C6AF27F3B76B0058548B /* ShowMonthAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMonthAnimation.swift; sourceTree = "<group>"; };
+		CA47C6B127F3B7770058548B /* ShowYearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowYearAnimation.swift; sourceTree = "<group>"; };
+		CA506BCD28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensiveCategoryOfMonth.swift; sourceTree = "<group>"; };
+		CAD3BE9627F1F427009E2465 /* NavigationBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBack.swift; sourceTree = "<group>"; };
+		CAEAE49227F30BDA008497AC /* MostExpensivePurchaseMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensivePurchaseMonth.swift; sourceTree = "<group>"; };
+		CAEAE49427F30D7D008497AC /* MostExpensiveCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensiveCategory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA112D7C27905C8200792B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D8C27905C8400792B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D9627905C8400792B42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA06B4BC27C1704C00965F29 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4BD27C170BF00965F29 /* SignUp.swift */,
+				CA06B4C427CA33A100965F29 /* Home.swift */,
+				CA06B4D127CE4E2A00965F29 /* ListPurchases.swift */,
+				CA06B4D727D6233800965F29 /* Statistics.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		CA06B4BF27C1D10F00965F29 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4C227C2800700965F29 /* testView.swift */,
+				CA06B4C627CA377500965F29 /* ShowUserComponent.swift */,
+				CA06B4C827CA3A6B00965F29 /* ShowCirclePurchase.swift */,
+				CA06B4CF27CA6E6B00965F29 /* ShowPurchase.swift */,
+				CA06B4D527D6097500965F29 /* ShowDescriptionPurchase.swift */,
+				CAD3BE9627F1F427009E2465 /* NavigationBack.swift */,
+				CA275A2C27F1FEBD00101076 /* MostExpensivePurchases.swift */,
+				CA275A2E27F2003B00101076 /* ShowStatPurchase.swift */,
+				CAEAE49227F30BDA008497AC /* MostExpensivePurchaseMonth.swift */,
+				CAEAE49427F30D7D008497AC /* MostExpensiveCategory.swift */,
+				CA47C6AF27F3B76B0058548B /* ShowMonthAnimation.swift */,
+				CA47C6B127F3B7770058548B /* ShowYearAnimation.swift */,
+				CA506BCD28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		CA06B4CA27CA51F300965F29 /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4CB27CA523F00965F29 /* AddNewPurchase.swift */,
+				CA06B4CD27CA6D4F00965F29 /* ShowMonthPurchases.swift */,
+				CA06B4D327CE5A0D00965F29 /* EditUser.swift */,
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		CA112D7627905C8200792B42 = {
+			isa = PBXGroup;
+			children = (
+				CA112D8127905C8200792B42 /* MoneyTracker */,
+				CA112D9227905C8400792B42 /* MoneyTrackerTests */,
+				CA112D9C27905C8400792B42 /* MoneyTrackerUITests */,
+				CA112D8027905C8200792B42 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA112D8027905C8200792B42 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA112D7F27905C8200792B42 /* MoneyTracker.app */,
+				CA112D8F27905C8400792B42 /* MoneyTrackerTests.xctest */,
+				CA112D9927905C8400792B42 /* MoneyTrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA112D8127905C8200792B42 /* MoneyTracker */ = {
+			isa = PBXGroup;
+			children = (
+				CA112D8227905C8200792B42 /* MoneyTrackerApp.swift */,
+				CA112DAD27905EDB00792B42 /* Views */,
+				CA112DAE27905EFB00792B42 /* Controllers */,
+				CA112DAF27905F0E00792B42 /* Models */,
+				CA112D8827905C8400792B42 /* Preview Content */,
+				CA112DAC27905D7C00792B42 /* TODO.md */,
+				CA112D8627905C8400792B42 /* Assets.xcassets */,
+			);
+			path = MoneyTracker;
+			sourceTree = "<group>";
+		};
+		CA112D8827905C8400792B42 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA112D8927905C8400792B42 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA112D9227905C8400792B42 /* MoneyTrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA112D9327905C8400792B42 /* MoneyTrackerTests.swift */,
+			);
+			path = MoneyTrackerTests;
+			sourceTree = "<group>";
+		};
+		CA112D9C27905C8400792B42 /* MoneyTrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA112D9D27905C8400792B42 /* MoneyTrackerUITests.swift */,
+				CA112D9F27905C8400792B42 /* MoneyTrackerUITestsLaunchTests.swift */,
+			);
+			path = MoneyTrackerUITests;
+			sourceTree = "<group>";
+		};
+		CA112DAD27905EDB00792B42 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4CA27CA51F300965F29 /* NavigationView */,
+				CA06B4BF27C1D10F00965F29 /* Component */,
+				CA06B4BC27C1704C00965F29 /* TabBar */,
+				CA112D8427905C8300792B42 /* RootView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CA112DAE27905EFB00792B42 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4B427B6CEA500965F29 /* ControllerUser.swift */,
+				CA06B4B627B6CF3500965F29 /* ControllerManagerPurchases.swift */,
+				CA06B4B827B6CF9B00965F29 /* ControllerSettings.swift */,
+				CA06B4BA27B6CFE100965F29 /* Database.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CA112DAF27905F0E00792B42 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CA06B4A927B6581400965F29 /* User.swift */,
+				CA06B4AC27B65D5200965F29 /* Purchase.swift */,
+				CA06B4AE27B65F0400965F29 /* ManagerPurchases.swift */,
+				CA06B4B027B662F100965F29 /* Settings.swift */,
+				CA06B4B227B6630E00965F29 /* ColorSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA112D7E27905C8200792B42 /* MoneyTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA112DA327905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTracker" */;
+			buildPhases = (
+				CA112D7B27905C8200792B42 /* Sources */,
+				CA112D7C27905C8200792B42 /* Frameworks */,
+				CA112D7D27905C8200792B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoneyTracker;
+			productName = MoneyTracker;
+			productReference = CA112D7F27905C8200792B42 /* MoneyTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA112D8E27905C8400792B42 /* MoneyTrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA112DA627905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTrackerTests" */;
+			buildPhases = (
+				CA112D8B27905C8400792B42 /* Sources */,
+				CA112D8C27905C8400792B42 /* Frameworks */,
+				CA112D8D27905C8400792B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA112D9127905C8400792B42 /* PBXTargetDependency */,
+			);
+			name = MoneyTrackerTests;
+			productName = MoneyTrackerTests;
+			productReference = CA112D8F27905C8400792B42 /* MoneyTrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA112D9827905C8400792B42 /* MoneyTrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA112DA927905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTrackerUITests" */;
+			buildPhases = (
+				CA112D9527905C8400792B42 /* Sources */,
+				CA112D9627905C8400792B42 /* Frameworks */,
+				CA112D9727905C8400792B42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA112D9B27905C8400792B42 /* PBXTargetDependency */,
+			);
+			name = MoneyTrackerUITests;
+			productName = MoneyTrackerUITests;
+			productReference = CA112D9927905C8400792B42 /* MoneyTrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA112D7727905C8200792B42 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CA112D7E27905C8200792B42 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					CA112D8E27905C8400792B42 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA112D7E27905C8200792B42;
+					};
+					CA112D9827905C8400792B42 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = CA112D7E27905C8200792B42;
+					};
+				};
+			};
+			buildConfigurationList = CA112D7A27905C8200792B42 /* Build configuration list for PBXProject "MoneyTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA112D7627905C8200792B42;
+			productRefGroup = CA112D8027905C8200792B42 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA112D7E27905C8200792B42 /* MoneyTracker */,
+				CA112D8E27905C8400792B42 /* MoneyTrackerTests */,
+				CA112D9827905C8400792B42 /* MoneyTrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA112D7D27905C8200792B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA112D8A27905C8400792B42 /* Preview Assets.xcassets in Resources */,
+				CA112D8727905C8400792B42 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D8D27905C8400792B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D9727905C8400792B42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA112D7B27905C8200792B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA06B4B127B662F100965F29 /* Settings.swift in Sources */,
+				CA06B4CC27CA523F00965F29 /* AddNewPurchase.swift in Sources */,
+				CA06B4C927CA3A6B00965F29 /* ShowCirclePurchase.swift in Sources */,
+				CA06B4BE27C170BF00965F29 /* SignUp.swift in Sources */,
+				CA06B4CE27CA6D4F00965F29 /* ShowMonthPurchases.swift in Sources */,
+				CA06B4BB27B6CFE100965F29 /* Database.swift in Sources */,
+				CA06B4AD27B65D5200965F29 /* Purchase.swift in Sources */,
+				CA06B4D427CE5A0D00965F29 /* EditUser.swift in Sources */,
+				CAD3BE9727F1F427009E2465 /* NavigationBack.swift in Sources */,
+				CA06B4B527B6CEA500965F29 /* ControllerUser.swift in Sources */,
+				CA47C6B227F3B7770058548B /* ShowYearAnimation.swift in Sources */,
+				CA06B4D827D6233800965F29 /* Statistics.swift in Sources */,
+				CA06B4C727CA377500965F29 /* ShowUserComponent.swift in Sources */,
+				CA06B4AF27B65F0400965F29 /* ManagerPurchases.swift in Sources */,
+				CA506BCE28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift in Sources */,
+				CA06B4C527CA33A100965F29 /* Home.swift in Sources */,
+				CA06B4B927B6CF9B00965F29 /* ControllerSettings.swift in Sources */,
+				CA06B4C327C2800700965F29 /* testView.swift in Sources */,
+				CA06B4B727B6CF3500965F29 /* ControllerManagerPurchases.swift in Sources */,
+				CA275A2F27F2003B00101076 /* ShowStatPurchase.swift in Sources */,
+				CA275A2D27F1FEBD00101076 /* MostExpensivePurchases.swift in Sources */,
+				CA06B4D027CA6E6B00965F29 /* ShowPurchase.swift in Sources */,
+				CA112D8527905C8300792B42 /* RootView.swift in Sources */,
+				CA47C6B027F3B76B0058548B /* ShowMonthAnimation.swift in Sources */,
+				CA06B4D227CE4E2A00965F29 /* ListPurchases.swift in Sources */,
+				CA112D8327905C8200792B42 /* MoneyTrackerApp.swift in Sources */,
+				CA06B4AA27B6581400965F29 /* User.swift in Sources */,
+				CA06B4D627D6097500965F29 /* ShowDescriptionPurchase.swift in Sources */,
+				CAEAE49327F30BDA008497AC /* MostExpensivePurchaseMonth.swift in Sources */,
+				CAEAE49527F30D7D008497AC /* MostExpensiveCategory.swift in Sources */,
+				CA06B4B327B6630E00965F29 /* ColorSettings.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D8B27905C8400792B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA112D9427905C8400792B42 /* MoneyTrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA112D9527905C8400792B42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA112DA027905C8400792B42 /* MoneyTrackerUITestsLaunchTests.swift in Sources */,
+				CA112D9E27905C8400792B42 /* MoneyTrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA112D9127905C8400792B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA112D7E27905C8200792B42 /* MoneyTracker */;
+			targetProxy = CA112D9027905C8400792B42 /* PBXContainerItemProxy */;
+		};
+		CA112D9B27905C8400792B42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA112D7E27905C8200792B42 /* MoneyTracker */;
+			targetProxy = CA112D9A27905C8400792B42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CA112DA127905C8400792B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA112DA227905C8400792B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA112DA427905C8400792B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoneyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA112DA527905C8400792B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MoneyTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CA112DA727905C8400792B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyTracker.app/MoneyTracker";
+			};
+			name = Debug;
+		};
+		CA112DA827905C8400792B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTrackerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyTracker.app/MoneyTracker";
+			};
+			name = Release;
+		};
+		CA112DAA27905C8400792B42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyTracker;
+			};
+			name = Debug;
+		};
+		CA112DAB27905C8400792B42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XNGDJ36393;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alessio.dinatale.MoneyTrackerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MoneyTracker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA112D7A27905C8200792B42 /* Build configuration list for PBXProject "MoneyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA112DA127905C8400792B42 /* Debug */,
+				CA112DA227905C8400792B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA112DA327905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA112DA427905C8400792B42 /* Debug */,
+				CA112DA527905C8400792B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA112DA627905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA112DA727905C8400792B42 /* Debug */,
+				CA112DA827905C8400792B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA112DA927905C8400792B42 /* Build configuration list for PBXNativeTarget "MoneyTrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA112DAA27905C8400792B42 /* Debug */,
+				CA112DAB27905C8400792B42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA112D7727905C8200792B42 /* Project object */;
+}

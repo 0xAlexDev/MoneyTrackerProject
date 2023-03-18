@@ -215,7 +215,7 @@ struct MostExpensiveCategoryCircleOfMonth: View {
                                 }
                             }
                         }
-                    }.padding()
+                    }
                         .navigationBarHidden(true)
                 }
                 

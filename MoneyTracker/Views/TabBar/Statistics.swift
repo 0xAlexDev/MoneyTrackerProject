@@ -22,11 +22,21 @@ struct Statistics: View {
                 Spacer()
             }.padding()
             ScrollView{
-                MostExpensivePurchases(managerPurchases: managerPurchases, settings: settings)
-                MostExpensiveCategoryCircle(managerPurchases: managerPurchases, settings: settings)
-                MostExpensivePurchasesOfMonth1(managerPurchases: managerPurchases, settings: settings)
-                MostExpensiveCategoryCircleOfMonth(managerPurchases: managerPurchases, settings: settings)
-            
+                if(!managerPurchases.getMostExpensivePurchasesOfAll().isEmpty || managerPurchases.getMostExpensivePurchasesOfAll().count != 0){
+                    MostExpensivePurchases(managerPurchases: managerPurchases, settings: settings)
+                }
+                    
+                if(!managerPurchases.GetAllPurchases().isEmpty || managerPurchases.GetAllPurchases().count != 0){
+                    MostExpensiveCategoryCircle(managerPurchases: managerPurchases, settings: settings)
+                }
+                
+                if(!managerPurchases.getMostExpensiveCategoryOfMonth().isEmpty || managerPurchases.getMostExpensiveCategoryOfMonth().count != 0){
+                    MostExpensivePurchasesOfMonth1(managerPurchases: managerPurchases, settings: settings)
+                }
+                
+                if(!managerPurchases.getMostExpensiveCategoryCircleOfMonth().isEmpty || managerPurchases.getMostExpensiveCategoryCircleOfMonth().count != 0){
+                    MostExpensiveCategoryCircleOfMonth(managerPurchases: managerPurchases, settings: settings)
+                }
                 
                 
                 

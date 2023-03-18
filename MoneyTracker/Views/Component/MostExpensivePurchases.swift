@@ -19,23 +19,23 @@ struct MostExpensivePurchases: View {
             
            
             var Vector : [Purchase] = managerPurchases.getMostExpensivePurchasesOfAll()
-            HStack{
-                Text("Most Expensive Purchase")
-                    .bold()
-                    .foregroundColor(settings.getColorUsed().secondaryColor)
-                Spacer()
-            }.padding(.bottom)
-            if(!Vector.isEmpty || Vector.count != 0){
+            
+                HStack{
+                    Text("Most Expensive Purchase")
+                        .bold()
+                        .foregroundColor(settings.getColorUsed().secondaryColor)
+                    Spacer()
+                }.padding(.bottom)
                 
                 
                 ScrollView(.horizontal,showsIndicators: false){
                     
                     HStack{
                         
-                            ForEach(managerPurchases.getMostExpensivePurchasesOfAll()){
-                                purchase in
-                                
-                                ShowStatPurchase(purchase: purchase,managerPurchases: managerPurchases, settings:settings)
+                        ForEach(managerPurchases.getMostExpensivePurchasesOfAll()){
+                            purchase in
+                            
+                            ShowStatPurchase(purchase: purchase,managerPurchases: managerPurchases, settings:settings)
                             
                         }
                         
@@ -46,18 +46,11 @@ struct MostExpensivePurchases: View {
                         
                     }
                 }
-            }
             
-            else{
-                HStack{
-                    Spacer()
-                    Text("Empty")
-                        .foregroundColor(settings.getColorUsed().secondaryColor)
-                    Spacer()
-
-                }
-                
-            }
+            
+            
+            
+            
             
         }.padding()
             .navigationBarHidden(true)

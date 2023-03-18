@@ -61,7 +61,6 @@ struct ListPurchases: View {
                         
                         
                     }
-                    
                     .listRowBackground(settings.getColorUsed().primaryColor)
                     .listRowSeparator(.hidden)
                     

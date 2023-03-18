@@ -30,7 +30,6 @@
 		CA06B4D827D6233800965F29 /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA06B4D727D6233800965F29 /* Statistics.swift */; };
 		CA112D8327905C8200792B42 /* MoneyTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D8227905C8200792B42 /* MoneyTrackerApp.swift */; };
 		CA112D8527905C8300792B42 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D8427905C8300792B42 /* RootView.swift */; };
-		CA112D8727905C8400792B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA112D8627905C8400792B42 /* Assets.xcassets */; };
 		CA112D8A27905C8400792B42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA112D8927905C8400792B42 /* Preview Assets.xcassets */; };
 		CA112D9427905C8400792B42 /* MoneyTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D9327905C8400792B42 /* MoneyTrackerTests.swift */; };
 		CA112D9E27905C8400792B42 /* MoneyTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA112D9D27905C8400792B42 /* MoneyTrackerUITests.swift */; };
@@ -40,6 +39,7 @@
 		CA47C6B027F3B76B0058548B /* ShowMonthAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47C6AF27F3B76B0058548B /* ShowMonthAnimation.swift */; };
 		CA47C6B227F3B7770058548B /* ShowYearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA47C6B127F3B7770058548B /* ShowYearAnimation.swift */; };
 		CA506BCE28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA506BCD28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift */; };
+		CABB264729C4EADD003D915D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CABB264629C4EADD003D915D /* Assets.xcassets */; };
 		CAD3BE9727F1F427009E2465 /* NavigationBack.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAD3BE9627F1F427009E2465 /* NavigationBack.swift */; };
 		CAEAE49327F30BDA008497AC /* MostExpensivePurchaseMonth.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAE49227F30BDA008497AC /* MostExpensivePurchaseMonth.swift */; };
 		CAEAE49527F30D7D008497AC /* MostExpensiveCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAEAE49427F30D7D008497AC /* MostExpensiveCategory.swift */; };
@@ -87,7 +87,6 @@
 		CA112D7F27905C8200792B42 /* MoneyTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA112D8227905C8200792B42 /* MoneyTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerApp.swift; sourceTree = "<group>"; };
 		CA112D8427905C8300792B42 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
-		CA112D8627905C8400792B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA112D8927905C8400792B42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA112D8F27905C8400792B42 /* MoneyTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA112D9327905C8400792B42 /* MoneyTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoneyTrackerTests.swift; sourceTree = "<group>"; };
@@ -100,6 +99,7 @@
 		CA47C6AF27F3B76B0058548B /* ShowMonthAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMonthAnimation.swift; sourceTree = "<group>"; };
 		CA47C6B127F3B7770058548B /* ShowYearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowYearAnimation.swift; sourceTree = "<group>"; };
 		CA506BCD28101042003DCF9D /* MostExpensiveCategoryOfMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensiveCategoryOfMonth.swift; sourceTree = "<group>"; };
+		CABB264629C4EADD003D915D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../../../../Downloads/AppIcons/Assets.xcassets; sourceTree = "<group>"; };
 		CAD3BE9627F1F427009E2465 /* NavigationBack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBack.swift; sourceTree = "<group>"; };
 		CAEAE49227F30BDA008497AC /* MostExpensivePurchaseMonth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensivePurchaseMonth.swift; sourceTree = "<group>"; };
 		CAEAE49427F30D7D008497AC /* MostExpensiveCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MostExpensiveCategory.swift; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 				CA112DAF27905F0E00792B42 /* Models */,
 				CA112D8827905C8400792B42 /* Preview Content */,
 				CA112DAC27905D7C00792B42 /* TODO.md */,
-				CA112D8627905C8400792B42 /* Assets.xcassets */,
+				CABB264629C4EADD003D915D /* Assets.xcassets */,
 			);
 			path = MoneyTracker;
 			sourceTree = "<group>";
@@ -369,7 +369,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA112D8A27905C8400792B42 /* Preview Assets.xcassets in Resources */,
-				CA112D8727905C8400792B42 /* Assets.xcassets in Resources */,
+				CABB264729C4EADD003D915D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -591,8 +591,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -621,8 +621,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
